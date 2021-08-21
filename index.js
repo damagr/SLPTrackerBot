@@ -1,7 +1,7 @@
 import { Client, Intents } from "discord.js";
 import axios from "axios";
 
-const url = "https://api.coingecko.com/api/v3/simple/price?ids=slp&vs_currencies=usd";
+const url = "https://api.coingecko.com/api/v3/simple/price?ids=smooth-love-potion&vs_currencies=usd";
 let lastPrice;
 
 const client = new Client({
@@ -26,7 +26,7 @@ client.once("ready", () => {
 
 function getPrice() {
   axios.get(url).then((response) => {
-    lastPrice = response.data.slp.usd;
+    lastPrice = response.data['smooth-love-potion']['usd'];
   });
 }
 
