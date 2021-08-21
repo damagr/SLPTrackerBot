@@ -1,0 +1,28 @@
+{
+  "name": "ethereumtracker",
+  "version": "1.0.0",
+  "description": "ethereumtracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.0",
+    "axios": "^0.21.1"
+  },
+  "type": "module",
+  "author": "damagr",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "crypto",
+    "discord-bot",
+    "cryptocurrency",
+    "discord-js",
+    "cryptoprices"
+  ]
+}
