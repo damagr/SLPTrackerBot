@@ -33,7 +33,7 @@ client.once("ready", () => {
 
   setInterval(async () => {
     getPrice();
-    BOT.user.setActivity("SLP: " + lastPrice, { type: "WATCHING" }).catch(console.error);
+    BOT.user.setActivity("SLP: " + lastPrice + '$', { type: "WATCHING" }).catch(console.error);
   }, 10000);
 });
 
