@@ -1,7 +1,7 @@
 {
-  "name": "ethereumtracker",
+  "name": "slptracker",
   "version": "1.0.0",
-  "description": "ethereumtracker",
+  "description": "slptracker",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
